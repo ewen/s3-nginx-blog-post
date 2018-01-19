@@ -25,3 +25,6 @@ Run the container:
 ## Connecting
 
 Browse to http://localhost:8888, set up new downloads in the Admin pages http://localhost:8888/admin/.
+
+Admin user is `admin` and password is `s3-nginx-blog-post`.
+ 
