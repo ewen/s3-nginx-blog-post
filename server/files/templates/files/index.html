@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List Files</title>
+</head>
+<body>
+    <h1>Files</h1>
+    {% if files %}
+        <ul>
+        {% for file in files %}
+            <li><a href="{% url 'download' file.id %}">{{ file.file_name }}</a></li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No files are available.</p>
+    {% endif %}
+</body>
+</html>
