@@ -1,4 +1,4 @@
-#NGINX's X-Accel with Remote URLs
+# NGINX's X-Accel with Remote URLs
 
 This is a simple application showing a pattern for using NGINX's X-Accel with remote URLs. See the blog post at https://www.mediasuite.co.nz/blog/.
 
