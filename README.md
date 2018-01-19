@@ -20,7 +20,7 @@ Run the container:
 
 Run the container:
 
-`docker run --rm -p 8888:80 --name=nginx_test s3-nginx-blog-post`
+`docker run --rm -p 8888:80 --name=nginx_test ewen/s3-nginx-blog-post`
 
 ## Connecting
 
